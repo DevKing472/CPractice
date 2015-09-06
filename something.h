@@ -1,3 +1,6 @@
+#ifndef SOMETHING_H
+#define SOMETHING_H
+
 class Something {
 public:
     Something ();
@@ -6,3 +9,5 @@ public:
 private:
     int num;
 };
+
+#endif
