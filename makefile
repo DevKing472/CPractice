@@ -1,5 +1,5 @@
 all:
-	@g++ -std=c++11 -o main main.cpp something.cpp
+	@g++ -std=c++11 main.cpp something.cpp -o main 
 	@echo "Files compiled successfully. 'main' executable created."
 
 clean:
